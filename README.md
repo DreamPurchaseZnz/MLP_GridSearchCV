@@ -7,3 +7,6 @@ the following experienment can prove that small samples is better without dropou
 Depiched from the picture,we can conclude some piont:
 * model with dropout layer don't performance well than model without dropout
 * model with variety layers get the same loss. that mean ,only one hidden layer can fix the problem.and more hidden layer is not neccessary.
+* model with more hidden layer is likely to get overfit and train time increase greatly.when you try to use dropout to solve overfit,you will
+find that the training process is becoming fragile and easily break down.maybe it is because of small samples(40)
+* model with one hidden layer  preformance best.
