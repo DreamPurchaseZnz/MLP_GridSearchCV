@@ -18,5 +18,5 @@ the the following picture can confirm it:
 
 mlp may exists some problem ,such as lack of robustness and overfitting.when you train more than 400 epochs, the loss may loss control,up and down intensely.
 
-** When tensorflow rise this error**
-Dst tensor is not initialized. this ** mean**  GPU memory is full. so shut down some thread and clean memory.
+Tips 
+* When tensorflow rise this error Dst tensor is not initialized. this mean GPU memory is full. so shut down some thread and clean memory.
