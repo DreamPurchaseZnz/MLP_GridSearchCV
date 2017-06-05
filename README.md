@@ -10,3 +10,10 @@ Depiched from the picture,we can conclude some piont:
 * model with more hidden layer is likely to get overfit and train time increase greatly.when you try to use dropout to solve overfit,you will
 find that the training process is becoming fragile and easily break down.maybe it is because of small samples(40)
 * model with one hidden layer  preformance best.
+
+# Convolution1D vs MLP
+the result is awesome, convolution1D is better in process of train and prediction,which mean less overfitting and more stable trainning.
+the the following picture can confirm it:
+![cnn](https://github.com/DreamPurchaseZnz/Picture/blob/master/compare_mlp_cnn.png)
+
+mlp may exists some problem ,such as lack of robustness and overfitting.
