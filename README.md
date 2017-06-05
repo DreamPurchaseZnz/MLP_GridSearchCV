@@ -16,4 +16,4 @@ the result is awesome, convolution1D is better in process of train and predictio
 the the following picture can confirm it:
 ![cnn](https://github.com/DreamPurchaseZnz/Picture/blob/master/compare_mlp_cnn.png)
 
-mlp may exists some problem ,such as lack of robustness and overfitting.
+mlp may exists some problem ,such as lack of robustness and overfitting.when you train more than 400 epochs, the loss may loss control,up and down intensely.
